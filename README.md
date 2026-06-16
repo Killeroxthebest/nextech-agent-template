@@ -7,3 +7,13 @@ There are a few files in this project that demonstrate ways to use python for LL
 - `tts.py`: This file demonstrates text-to-speech. It reads a script from `output/script.md`, sends it to the TTS endpoint, and saves the resulting audio as a WAV file.
 
 - `demo.py`: This is the file we used to demystify LLMs a bit. It demonstrates how an LLM predicts likely next tokens given an input prompt.
+
+## Running Scripts
+
+Run each file with *uv run <file_name>*. For example,
+
+```terminal
+uv run demo.py
+```
+
+**Make sure to set up your environment variable `OPENROUTER_API_KEY` in a `.env` file before running the code.**
