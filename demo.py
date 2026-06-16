@@ -4,12 +4,9 @@ import os
 from dotenv import load_dotenv
 from agno.models.openrouter import OpenRouter
 
-# input="Respond with only one word and fill in the blank: A random day of the week is _____."
-# input="Respond with only one word and fill in the blank: The greatest R&B musician of all time is _____."
-# input = "Write a creative opening sentence for a short story where the first word is a city name."
-# input = "Write a creative opening sentence for a short story."
-input = "Write an opening sentence to an article on one of the top 5 musicians of all time, and begin the sentence with the musician's name."
+input = "Respond with only one word and fill in the blank: 'The capital of France is _____.'"
 # input = "Continue the opening sentence of a short story that starts with 'The red '. Just continue the sentence and without the first words 'The red '."
+# input = "Write an opening sentence to an article on one of the top 5 musicians of all time, and begin the sentence with the musician's name."
 
 
 def main() -> None:

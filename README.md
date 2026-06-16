@@ -10,7 +10,7 @@ There are a few files in this project that demonstrate ways to use python for LL
 
 ## Running Scripts
 
-Run each file with *uv run <file_name>*. For example,
+Run each file with `uv run <file_name>`. For example,
 
 ```terminal
 uv run demo.py
